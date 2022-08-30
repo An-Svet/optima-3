@@ -20,7 +20,7 @@
 	position: absolute;
 	left: 80%;
 	top: 0;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 80px;
 }
 .sub-menu__list > li {
 	/* background-color: #fff; */
