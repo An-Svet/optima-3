@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/left-nav-style.css"> -->
+	<link rel="stylesheet" href="css/left-menu.css">
+	<link rel="stylesheet" href="css/accordion.css">
+	<link rel="stylesheet" href="css/vipad_menu.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Ruslan+Display&display=swap"
+	rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+	<title>Optima-konditer</title>
+</head>
+
+
+<body>
+	<!--! Header -->
+	<header class="header">
+		<div class="header__above">
+			<div class="header__above-container container">
+				<nav class="header__above-nav">
+					<ul class="header__above-list">
+						<li class="header__above-item">
+							<div class="header__above-item-img">
+								<img class="above__img" src="img/obrPhone.svg" alt="">
+								<a class="header__above-a" href="">Обратный звонок</a>
+							</div>
+						</li>
+						<li class="header__above-item img__search">
+							<div class="header__above-item-img">
+								<img class="above__img" src="img/search.svg" alt="">
+								<a class="header__above-a" href="">Поиск по сайту</a>
+							</div>
+						</li>
+						<li class="header__above-item">
+							<div class="header__above-item-img">
+								<img class="above__img" src="img/phone.svg" alt="">
+								<a class="header__above-a" href=" tel:+73833632430">тел. (383)363-24-30</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="header__container container">
+			<nav class="header__nav">
+				<ul class="header__list">
+					<li class="header__item"> <a href=""><label for="nav-toggle" class="nav-toggle-menu nav-toggle"
+								onclick>Каталог&nbsp</label></a></li>
+				</ul>
+			</nav>
+			<a href="" class="header__logo">
+				<span class="header__logo-img">
+					<svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<ellipse cx="23.3669" cy="45.6517" rx="2.97309" ry="1.33342" fill="black" />
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M23.3668 45.2337C14.2352 47.5938 0.496437 39.6369 0.496437 29.4554C0.496437 19.1677 7.03476 12.0174 23.3668 16.4652C39.6989 12.0174 46.2372 19.1677 46.2372 29.4554C46.2372 39.6369 32.4985 47.5938 23.3668 45.2337Z"
+							fill="#FF1700" />
+						<path
+							d="M23.3443 19.9043C38.9037 17.8082 38.5666 1.69428 38.5666 1.69428C38.5666 1.69428 18.3352 10.5834 23.3443 19.9043Z"
+							fill="#040000" stroke="black" />
+						<path
+							d="M22.8941 19.8291C10.8882 16.1075 10.8882 5.29273 10.8882 5.29273C10.8882 5.29273 28.9785 12.7986 22.8941 19.8291Z"
+							fill="#040000" stroke="black" />
+					</svg>
+				</span>
+				<span class="header__logo-title">Л-Система</span>
+			</a>
+			<nav class=" header__nav">
+				<ul class="header__list">
+					<li class="header__item"><a href="">Главная</a></li>
+					<!-- <li class="header__item"> <a href=""><label for="nav-toggle" class="nav-toggle-menu nav-toggle"
+								onclick>Каталог&nbsp</label></a></li> -->
+					<li class="header__item"><a href="">О компании</a></li>
+					<li class="header__item"><a href="">Контакты</a></li>
+					<li class="header__item"><a href="">Скачать прайс</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!--! Выезжающее меню -->
+	<input type="checkbox" id="nav-toggle" hidden>
+	<nav class="nav">
+		<!-- <label for="nav-toggle" class="nav-toggle" onclick></label> -->
+		<!-- <h2 class="logo">
+			<a href="">Каталог</a>
+		</h2> -->
+		<ul class="menu__list">
+			<!--! Выпадающее меню -->
+			<li>
+				<a class="menu__link" href="">Крупы, мука, макароны</a>
+				<span class="menu__arrow arrow"></span>
+				<ul class="sub-menu__list">
+					<li>
+						<a href="" class="sub-menu__link">Крупы</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Мука</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Макароны</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a class="menu__link" href="">Кондитерские изделия</a>
+				<span class="menu__arrow arrow"></span>
+				<ul class="sub-menu__list">
+					<li>
+						<a href="" class="sub-menu__link">Сухие завтраки, слайсы</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Конфеты</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Карамель</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Печенье</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Вафли</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Пряники</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Сушки</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Бисквитно-рулетная группа</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Зефир, мармелад</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Халва, козинаки, гематоген</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">Снеки</a>
+			</li>
+			<li>
+				<a class="menu__link" href="">Специи, приправы, пряности</a>
+				<span class="menu__arrow arrow"></span>
+				<ul class="sub-menu__list">
+					<li>
+						<a href="" class="sub-menu__link">Специи, пряности</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Приправы</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Продукты быстрого приготовления</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Сезонный ассортимент</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a class="menu__link" href="">Консервация</a>
+				<span class="menu__arrow arrow"></span>
+				<ul class="sub-menu__list">
+					<li>
+						<a href="" class="sub-menu__link">Мясная консервация</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Рыбная консервация</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Грибная консервация</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Фруктовая консервация</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Маслины, оливки</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Овощная консервация</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Соусы</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Джемы, повидло</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a class="menu__link" href="">Молочные продукты</a>
+				<span class="menu__arrow arrow"></span>
+				<ul class="sub-menu__list">
+					<li>
+						<a href="" class="sub-menu__link">Молоко сухое</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Молоко ультрапастеризованное</a>
+					</li>
+					<li>
+						<a href="" class="sub-menu__link">Сгущенка</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">Соки</a>
+			</li>
+			<li>
+				<a href="">Сахар, соль, сода, уксус, квас</a>
+			</li>
+			<li>
+				<a href="">Пироги, торты, пирожные</a>
+			</li>
+			<li>
+				<a href="">Шоколад</a>
+			</li>
+			<li>
+				<a href="">Сухари</a>
+			</li>
+			<li>
+				<a href="">Фунчеза</a>
+			</li>
+			<li>
+				<a href="">Кисели</a>
+			</li>
+			<li>
+				<a href="">Бульоны и супы</a>
+			</li>
+			<li>
+				<a href="">Бакалея</a>
+			</li>
+			<li>
+				<a href="">Попкорн</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!--! Main -->
+	<main class="main">
+		<section class="glavnaya">
+			<div class="container">
+				<h1>Л-Система</h1>
+				<div class="glavnaya__photo">
+					<a class="glavnaya__photo-author" href="https://ru.freepik.com/photos/food">Food фото создан(а) timolina
+						- ru.freepik.com</a>
+				</div>
+			</div>
+		</section>
+		<!--todo Prpducts -->
+		<section class="products">
+			<div class="container">
+				<h2>Наши продукты</h2>
+				<ul class="products__list">
+					<a href="">
+						<li class="products__item">
+							<div class="products__card products__card-1">
+								<!-- <a href='https://ru.freepik.com/photos/food'>Food фото создан(а) azerbaijan_stockers -
+									ru.freepik.com</a> -->
+								<!-- <img class="products__img" src="img/akulchev.jpg" alt=""> -->
+							</div>
+							<span class="products__title">Крупы</span>
+						</li>
+					</a>
+					<a href="">
+						<li class="products__item">
+							<div class="products__card products__card-2">
+								<!-- <a href='https://ru.freepik.com/photos/food'>Food фото создан(а) 8photo - ru.freepik.com</a> -->
+								<!-- <img class="products__img" src="img/akulchev.jpg" alt=""> -->
+							</div>
+							<span class="products__title">Мука</span>
+						</li>
+					</a>
+					<a href="">
+						<li class="products__item">
+							<div class="products__card products__card-3">
+								<!-- <a href='https://ru.freepik.com/photos/food'>Food фото создан(а) mdjaff - ru.freepik.com</a> -->
+								<!-- <img class="products__img" src="img/pasta.jpg" alt=""> -->
+							</div>
+							<span class="products__title">Макароны</span>
+						</li>
+					</a>
+
+				</ul>
+			</div>
+		</section>
+		<!--todo Proizvoditely -->
+		<section class="proizvoditely">
+			<h2>Производители</h2>
+			<div class="container proizvoditely__container">
+				<ul class="proizvoditely__list">
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Акульчев</span>
+								<!-- <span class="proizvoditely__but"> -->
+								<a href="">Перейти</a>
+								<!-- </span> -->
+								<img class="proizvoditely__img" src="img/akulchev.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Буби-юби</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/bubyuby.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Черемушки</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/cheremushki.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Тимоша</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/timosha.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Выбери меня</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/viberymenya.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Медведь любимый</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/medvlub.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Магия Востока</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/magiya_v.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Акулина</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/akulina.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Кэмми</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/kemmy.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Хайди</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/heidi.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Березники</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/berezniki.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Виктория</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/viktoriya.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Домашние разносолы</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/domashn_raznosoly.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Искитимский кондитер</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/iskitim_cond.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Квантсервер</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/kvants.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Светлый праздник</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/svetly_prazdn.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Монетный двор</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/mon_dvor.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Шогеттен</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/schogetten.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Бисквит-Фаворит</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/biskv_favorit.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Посольство вкусной еды</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/posol_vkus_ed.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Вкуснотеевъ</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/vkusnoteev.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Бежицкий ПК</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/begitskiy.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Орион</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/orion.svg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Сибирское здоровье 2000</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/sib_zdorov.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Русладко</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/rusladko.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Конвита</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/konvita.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Сибирский леденец</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/sib_ledenec.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Эксперимент</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Дядя Том</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Бийскмясопродукт</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Рузком</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/ruzcom.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Медвежье побережье</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/med_pobereg.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Крупяной двор</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/krup_dvor.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Лапшин ТД</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/lapshin.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Федеральная бакалейная компания</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/fed_bak_kom.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Башкирская содовая компания</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/bsk.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Руссоль</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/russol.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Биар</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Восточный базар</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/vos_bazar.webp" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Preston</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/preston.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Premix</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">MagikCorn</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/magiccorn.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Сибирский мельник</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Акватория</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Валдайский погребок</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/valdaysky-pogrebok.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Уральские кондитеры</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/ural_konditery.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Южуралкондитер</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/uguralkonditer.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Голд Фиш</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/goldfish.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">ПоД"АрИ</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">АТОН</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">PERGALE</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/PERGALE.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Тяжин</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/tyagin.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Собинский ХК</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/Sobinsky_hk.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">КОНФЭШН</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/confashion.jpg" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">АМЕРИЯ</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/ameria.png" alt="">
+							</div>
+						</li>
+					</a>
+					<a href="">
+						<li class="proizvoditely__item">
+							<div class="proizvoditely__card">
+								<span class="proizvoditely__title">Мировая кухня</span>
+								<a href="">Перейти</a>
+								<img class="proizvoditely__img" src="img/no_logo.png" alt="">
+							</div>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</section>
+		<!--! About -->
+		<section class="about">
+			<div class="container">
+				<h2>О компании</h2>
+				<p>Наша компания является дистрибьюторской компанией. Работаем на рынке продуктов питания с 2000 года. В
+					ассортимент нашей компании входят: кондитерские изделия, консервированная продукция и др. продукты
+					бакалейной линейки. Мы имеем прямые и дистрибьюторские контракты по таким торговым маркам как:</p>
+				<ul>
+					<li>
+						<a href="">ТМ Акульчев (вафли, печенье)</a>
+					</li>
+					<li>
+						<a href="">ТМ Глобус (печенье, конфеты)</a>
+					</li>
+					<li>
+						<a href="">ТМ Буби-Юби г. Челябинск (печенье, вафли</a>
+					</li>
+					<li>
+						<a href="">ТМ Никитка, Никитич г. Бийск (сухие завтраки, сушки, слайсы)</a>
+					</li>
+					<li>
+						<a href="">ТМ Черемушки (торты, пироги)</a>
+					</li>
+					<li>
+						<a href="">ТМ Тимоша (халва, козинак, рахат-лукум)</a>
+					</li>
+					<li>
+						<a href="">ТМ Выбери меня, Бисквит-Фаворит (бисквитная продукция)</a>
+					</li>
+					<li>
+						<a href="">ТМ Медведь Любимый г.Владивосток (плодо-овощная консервация)</a>
+					</li>
+					<li>
+						<a href="">ТМ Акулина (кисель)</a>
+					</li>
+					<li>
+						<a href="">ТД Кэмми Казахстан (макаронные изделия)</a>
+					</li>
+					<li>
+						<a href="">ТТМ Бискотти (печенье)</a>
+					</li>
+					<li>
+						<a href="">ТМ Хайди (шоколад)</a>
+					</li>
+				</ul>
+				<p>Одно из приоритетных направлений – развитие сотрудничества с торговыми сетями и отдельно стоящей
+					розницей.
+				</p>
+			</div>
+		</section>
+		<!--! Contacts -->
+		<section class="contacts">
+			<div class="container">
+				<h2>Контакты</h2>
+				<p>г. Новосибирск, ул. Толмачёвская, д.1/1, 2 этаж</p>
+				<div class="contacts__phone">
+					<a href="tel:+73833632430" class="section-contacts-link">+7 (383) 363-24-30</a>
+				</div>
+				<div class="contacts__mail">
+					<a href="mailto:example@example.com" class="section-contacts-link">example@example.com</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!--! Footer -->
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__left">
+				<small>© ГК Сибирские продукты 2000 - 2022</small>
+			</div>
+		</div>
+	</footer>
+	<!--! script -->
+	<script src="js/script.js"></script>
+	<script src="js/accordion.js"></script>
+	<script src="js/bok_menu.js"></script>
+</body>
+
+</html>

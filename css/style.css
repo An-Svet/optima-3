@@ -1,0 +1,340 @@
+:root {
+	--outline: 4px solid rgba(219, 35, 188, 0);
+}
+* {
+	outline: var(--outline);
+	text-indent: none;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body {
+	/* font-family: "Rubik Moonrocks", cursive;
+	font-family: "Ruslan Display", cursive; */
+	/* font-family: "Comfortaa", cursive; */
+	font-family: "Montserrat Alternates", sans-serif;
+	color: white;
+	box-sizing: border-box;
+	/* background: url(../img/all.jpg) 0 0 /100vw 100vh no-repeat; */
+	/* background-size: contain; */
+}
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	text-align: start;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	text-align: start;
+}
+li {
+	color: white;
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 18px;
+	text-align: start;
+}
+a {
+	color: white;
+	text-indent: none;
+	text-align: start;
+}
+h1 {
+	color: rgb(177, 16, 16);
+	font-size: 80px;
+	text-align: center;
+	margin: 180px 0px 60px 0px;
+	font-family: "Lobster", cursive;
+	letter-spacing: 0.5em;
+}
+h2 {
+	color: rgb(177, 16, 16);
+	font-size: 40px;
+	text-align: center;
+	margin: 80px 0px;
+}
+span {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+/*! Header */
+
+.header {
+	/* height: 10vh; */
+	width: 100vw;
+	background: rgb(177, 16, 16);
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.header__above {
+	background: rgb(255, 255, 255);
+	outline: var(--outline);
+}
+.header__above-container {
+	outline: var(--outline);
+}
+.header__above-nav {
+	outline: var(--outline);
+}
+.header__above-list {
+	outline: var(--outline);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+}
+.header__above-item {
+	outline: var(--outline);
+	padding: 5px 0px;
+}
+.header__above-item:not(:last-child) {
+	margin-right: 20px;
+}
+.header__above-item-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.above__img {
+	width: 5%;
+	height: 5%;
+	margin-right: 15px;
+}
+.header__above-a {
+	color: rgb(177, 16, 16);
+	/* margin: 0px 20px; */
+}
+.img__search {
+	width: 40%;
+	background: rgba(214, 211, 211, 0.815);
+	border-radius: 60px;
+	/* padding: 7px 15px; */
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	outline: var(--outline);
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	outline: var(--outline);
+	padding: 0px 20px;
+}
+.header__logo-title {
+	/* font-family: "Rubik Moonrocks", cursive; */
+	/* font-family: "Ruslan Display", cursive; */
+	font-family: "Comfortaa", cursive;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+}
+.header__nav {
+	margin-right: 20px;
+}
+.header__list {
+	display: flex;
+	align-items: center;
+}
+.header__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+/*! Glavnaya */
+.glavnaya__photo {
+	width: 100%;
+	height: 60vh;
+	margin: 0 auto;
+	background-image: url(../img/fone.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 15px;
+	/* border-bottom: 4px dashed rgb(177, 16, 16); */
+}
+.glavnaya__photo a {
+	text-align: bottom;
+	color: transparent;
+}
+/*todo Products */
+.products__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.products__item {
+	outline: var(--outline);
+	width: 250px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.products__card-1 {
+	background: url(../img/grain.webp) no-repeat;
+	background-position: 100% 0%;
+}
+.products__card-2 {
+	background: url(../img/flour.jpg) no-repeat;
+	background-position: 25% 0%;
+}
+.products__card-3 {
+	background: url(../img/pasta.jpg) no-repeat;
+	background-position: 0% 0%;
+}
+.products__card {
+	width: 250px;
+	display: flex;
+	height: 250px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 1px 1px 3px rgb(131, 130, 130);
+	border-radius: 50%;
+	outline: var(--outline);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 8px solid rgb(177, 16, 16);
+	background-size: cover;
+}
+.products__card-1:hover,
+.products__card-1:focus {
+	background: url(../img/grain2.jpg) no-repeat;
+	background-size: cover;
+	background-position: 50% 0%;
+}
+.products__card-2:hover,
+.products__card-2:focus {
+	background: url(../img/flour2.jpg) no-repeat;
+	background-size: cover;
+}
+.products__card-3:hover,
+.products__card-3:focus {
+	background: url(../img/pasta4.webp) no-repeat;
+	background-size: cover;
+}
+.products__title {
+	color: rgb(177, 16, 16);
+	outline: var(--outline);
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.products__img {
+	width: 80%;
+	outline: var(--outline);
+	padding: 0px 10px;
+}
+/*todo Proizvoditely */
+.proizvoditely__container {
+	background-image: url(../img/wood3.jpg);
+	border-radius: 15px;
+	padding: 20px 0px;
+}
+.proizvoditely__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.proizvoditely__item {
+	outline: var(--outline);
+	width: 250px;
+	padding-bottom: 20px;
+}
+.proizvoditely__item:hover .proizvoditely__card {
+	background-color: rgb(177, 16, 16);
+}
+ul,
+li,
+a {
+	text-indent: none;
+}
+
+.proizvoditely__item:hover .proizvoditely__title,
+.proizvoditely__item:hover .proizvoditely__img {
+	display: none;
+	transition: all 2s 2s linear;
+}
+.proizvoditely__item:hover .proizvoditely__item {
+	background: #000;
+}
+.proizvoditely__card {
+	display: flex;
+	height: 300px;
+	/* flex: 1 1 300px; */
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background: #fff;
+	box-shadow: 4px 4px 10px rgba(37, 37, 37, 0.644);
+	border-radius: 10px;
+	outline: var(--outline);
+	margin-right: 20px;
+	/* background: url(../img/wood3.jpg) no-repeat;
+	background-position: 0% 50%; */
+}
+.proizvoditely__card:hover {
+	box-shadow: -4px 4px 10px rgba(37, 37, 37, 0.644);
+}
+.proizvoditely__title {
+	color: rgb(177, 16, 16);
+	outline: var(--outline);
+	font-size: 24px;
+	text-align: center;
+}
+.proizvoditely__img {
+	width: 80%;
+	outline: var(--outline);
+	padding: 0px 10px;
+}
+/*! About */
+.about {
+}
+.about p,
+.about a {
+	color: rgb(177, 16, 16);
+	line-height: 1.5;
+	text-indent: 25px;
+}
+.about ul {
+	list-style: circle;
+	padding: 52px;
+}
+.about li {
+	list-style: circle;
+	color: rgb(177, 16, 16);
+}
+/*! Contacts */
+.contacts p,
+.contacts a {
+	color: rgb(177, 16, 16);
+	line-height: 1.5;
+}
+/*! Footer */
+footer {
+	background: rgb(177, 16, 16);
+	display: flex;
+	padding: 10px 20px;
+}
